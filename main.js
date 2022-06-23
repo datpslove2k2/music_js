@@ -29,66 +29,312 @@ const app = {
     // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
     songs: [
         {
-            name: "Biệt Tri Kỷ TikTok (Dj Za)",
-            singer: "Bie Zhi Ji",
-            path: "./assets/music/y2meta.com - Biệt Tri Kỷ TikTok ((别知己)) Dj Za - Bie Zhi Ji _ Nhạc Trung Quốc Hot Tiktok - Biệt Tri Kỷ Thái Lan (128 kbps).mp3",
+            name: "Chân Tình",
+            singer: "Quốc Duy If Thái Engg Cover",
+            path: "./assets/music/y2meta.com - Chân Tình Remix _ Quốc Duy If Thái Engg Cover _ Nhạc Hot Tiktok - Dân Bay Plus (128 kbps).mp3",
             image: "./assets/pictures/picture_1.jpg"
         },
         {
-            name: "Mưa Tuyết (DN Team Remix)",
-            singer: "Jimmii Nguyễn",
-            path: "./assets/music/y2meta.com - Mưa Tuyết ( DN Team Remix ) - Jimmii Nguyễn _ Từng Hạt Tuyết Rơi Cho Nơi Đây Anh Lẻ Loi Remix (128 kbps).mp3",
-            image:"./assets/pictures/picture_2.jpg"
+            name: "Ép Duyên",
+            singer: "Long Nón Lá",
+            path: "./assets/music/y2meta.com - ÉP DUYÊN - YUNIBOO ft NAM ANH _ LONG NÓN LÁ ft KAYDEE COVER (128 kbps).mp3",
+            image:"./assets/pictures/picture_10.png"
         },
+        {
+            name: "Cổ Tích",
+            singer: "Jsol",
+            path:"./assets/music/y2meta.com - Cổ Tích - JSOL「Cukak Remix」_ Audio Lyrics Video (128 kbps).mp3",
+            image: "./assets/pictures/picture_11.jpg"
+        },
+        {
+            name: "Hai Năm Nghĩa Vụ",
+            singer: "Bộ Đội",
+            path: "./assets/music/y2meta.com - Hai Năm Nghĩa Vụ Remix Vòng Xe Lăn Bánh Chào Tạm Biệt Em Remix _ Nhạc Hot TikTok _ (128 kbps).mp3",
+            image: "./assets/pictures/picture_12.jpg"
+        },
+        {
+            name: "Phận Duyên Lỡ Làng",
+            singer: "Datpro",
+            path: "./assets/music/y2mate.com - Em Như Hoa Dịu Dàng Nồng Nàn  Phận Duyên Lỡ Làng Remix  Nhạc Hot Tik Tok 2021.mp3",
+            image: "./assets/pictures/picture_13.jpg"
+        },
+        {
+            name: "Tình Đơn Phương 3",
+            singer: "Hi Anh Trai",
+            path: "./assets/music/y2mate.com - TÌNH ĐƠN PHƯƠNG 3 Hianhtrai  Remix.mp3",
+            image: "./assets/pictures/picture_14.jpg"
+        },
+        {
+            name: "Tan Trong Mưa Bay",
+            singer: "Nightcore HN",
+            path: "./assets/music/y2meta.com - [ Nightcore HN ] - Nightcore Tan Trong Mưa Bay Remix (128 kbps).mp3",
+            image: "./assets/pictures/picture_15.jpg"
+        },
+        {
+            name: "Nhìn Em Lần Cuối",
+            singer: "DJ Tit",
+            path:"./assets/music/y2meta.com - [Nightcore] - Nhìn Em Lần Cuối (DJ Tit Remix) -  Yuki Huy Nam (128 kbps).mp3",
+            image: "./assets/pictures/picture_16.jpg"
+        },
+        {
+            name: "Biết Đau Nhưng Vẫn Yêu",
+            singer: "Hồ Gia Khánh",
+            path:"./assets/music/y2meta.com - Biết Đau Nhưng Vẫn Yêu Remix  - Hồ Gia Khánh [ Audio MP3] (128 kbps).mp3",
+            image: "./assets/pictures/picture_17.jpg"
+        },
+        {
+            name: "Hơn Cả Mây Trời",
+            singer: "Tipo",
+            path:"./assets/music/y2meta.com - HƠN CẢ MÂY TRỜI REMIX _ TIPO REMIX - Như Việt _ Nhiều hơn cả mây trời, cả cuộc đời... (128 kbps).mp3",
+            image: "./assets/pictures/picture_18.jpg"
+        },
+        {
+            name: "Lovely Dog",
+            singer: "Toàn Mùi",
+            path:"./assets/music/y2meta.com - Lovely Dog Remix TikTok (ARS Remix) - Nhạc Toàn Mùi MIKENCO - MIKENCO Trend Remix (128 kbps).mp3",
+            image: "./assets/pictures/picture_19.jpg"
+        },   
+        {
+            name: "Mộng Tàn Hoa",
+            singer: "Thiên Tú",
+            path:"./assets/music/y2meta.com - Mộng Tàn Hoa (H2O Remix) - Thiên Tú _ Cành hồng đã úa giấc mơ cũng dần tan Hot TikTok Remix (128 kbps).mp3",
+            image: "./assets/pictures/picture_2.jpg"
+        },   
+        {
+            name: "Tiếng Hét Nghĩa Tình",
+            singer: "Nhạc Chế",
+            path:"./assets/music/y2meta.com - Nhạc Chế - TIẾNG HÉT NGHĨA TÌNH __ THẰNG BẠN TỒI 3 __ Nhạc Chế Đời __ Sến Chợ (128 kbps).mp3",
+            image: "./assets/pictures/picture_20.jpg"
+        },   
+        {
+            name: "Nhớ Thương Chỉ Là Hoang Phí",
+            singer: "TVk x BeaZ",
+            path:"./assets/music/y2meta.com - Nhớ Thương Chỉ Là Hoang Phí ( DN Team Remix ) - TVk x BeaZ _ Người hẹn người thề là trăm năm remix (128 kbps).mp3",
+            image: "./assets/pictures/picture_21.jpg"
+        },   
+        {
+            name: "Nên Chờ Hay Nên Quên",
+            singer: "Phan Duy Anh",
+            path:"./assets/music/y2meta.com - Nên Chờ Hay Nên Quên Remix l Phan Duy Anh Ft DJ Eric T-J (128 kbps).mp3",
+            image: "./assets/pictures/picture_22.jpg"
+        },   
         {
             name: "Nữ Nhi Tình",
             singer: "DJ Triệu Muzik",
             path:"./assets/music/y2meta.com - Nữ Nhi Tình Remix - Bản Mix Hay Nhất 2020 _ DJ Triệu Muzik _ 49 REMIX TV (128 kbps).mp3",
-            image: "./assets/pictures/picture_3.jpg"
-        },
+            image: "./assets/pictures/picture_23.jpg"
+        },   
+        {
+            name: "Orb Sak Snea",
+            singer: "PHUS Music",
+            path:"./assets/music/y2meta.com - Orb Sak Snea Remix  - ARS ft Vy Sweetie Remix - PHUS Music (128 kbps).mp3",
+            image: "./assets/pictures/picture_24.jpg"
+        },   
+        {
+            name: "Phận Hoa Rơi",
+            singer: "K-ICM X VICKY NHUNG",
+            path:"./assets/music/y2meta.com - PHẬN HOA RƠI - K-ICM X VICKY NHUNG _ LONG NÓN LÁ COVER (128 kbps).mp3",
+            image: "./assets/pictures/picture_25.jpg"
+        },   
         {
             name: "Phụ Tình",
-            singer: "DJ DatPro",
-            path: "./assets/music/y2meta.com - Phụ Tình Remix - Bản Remix Cực Hay (128 kbps).mp3",
-            image: "./assets/pictures/picture_4.jpg"
-        },
+            singer: "Dj ",
+            path:"./assets/music/y2meta.com - Phụ Tình Remix - Bản Remix Cực Hay (128 kbps).mp3",
+            image: "./assets/pictures/picture_26.jpg"
+        },   
+        {
+            name: "Quên Người Đã Quá Yêu",
+            singer: "Hà Duy Thái",
+            path:"./assets/music/y2meta.com - Quên Người Đã Quá Yêu (Orinn Remix) - Hà Duy Thái _ Nhạc Remix EDM Tik Tok Gây Nghiện Hay Nhất 2021 (128 kbps).mp3",
+            image: "./assets/pictures/picture_27.jpg"
+        },   
+        {
+            name: "Đêm Chờ Mấy Đêm",
+            singer: "Tiktok",
+            path:"./assets/music/y2meta.com - SAI ĐÊM NAY LÀ SAY ĐÊM MAI _ĐÊM CHỜ MẤY ĐÊM _ TikTok _ Remix _ NHẠC TRẺ HOT 2022 (128 kbps).mp3",
+            image: "./assets/pictures/picture_28.jpg"
+        },   
+        {
+            name: "Back To Hometown",
+            singer: "Binz",
+            path:"./assets/music/y2meta.com - Sol7 - Back To Hometown - Team Binz _ Rap Việt - Mùa 2  [MV Lyrics] (128 kbps).mp3",
+            image: "./assets/pictures/picture_29.jpg"
+        },   
         {
             name: "SpaceSpeakers",
             singer: "Freaky Squad",
-            path: "./assets/music/y2meta.com - SpaceSpeakers - Freaky Squad (Official Music Video) (128 kbps).mp3",
-            image: "./assets/pictures/picture_5.jpg"
-        },
+            path:"./assets/music/y2meta.com - SpaceSpeakers - Freaky Squad (Official Music Video) (128 kbps).mp3",
+            image: "./assets/pictures/picture_3.jpg"
+        },   
         {
-            name: "Thương Người Không Thương",
+            name: "Sự Thật Đã Bỏ Quên",
+            singer: "Hà Duy Thái",
+            path:"./assets/music/y2meta.com - Sự Thật Đã Bỏ Quên Remix -- Hà Duy Thái (128 kbps).mp3",
+            image: "./assets/pictures/picture_30.jpg"
+        },   
+        {
+            name: "Tay Trái Chỉ Trăng",
+            singer: "Dj Triệu",
+            path:"./assets/music/y2meta.com - TAY TRÁI CHỈ TRĂNG - DJ TRIỆU MUZIK FT CM REMIX - 左手指月 - Upwards To The Moon (128 kbps).mp3",
+            image: "./assets/pictures/picture_31.jpg"
+        },   
+        {
+            name: "Thương người không thương",
             singer: "Phát Huy T4",
-            path: "./assets/music/y2meta.com - Thương người không thương … (Phát Huy T4) remix (128 kbps).mp3",
-            image: "./assets/pictures/picture_6.jpg"
-        },
+            path:"./assets/music/y2meta.com - Thương người không thương … (Phát Huy T4) remix (128 kbps).mp3",
+            image: "./assets/pictures/picture_32.jpg"
+        },   
+        {
+            name: "Thủy Triều",
+            singer: "Phó Mộng Đồng",
+            path:"./assets/music/y2meta.com - Thủy Triều Remix - Phó Mộng Đồng _ 傅梦彤 - 潮汐( Dj茂 ProgHouse Mix ) Bài Hát Hot Tik Tok Trung Quốc (128 kbps).mp3",
+            image: "./assets/pictures/picture_33.jpg"
+        },   
+        {
+            name: "Tokyo Drift",
+            singer: "Teriyaki Boyz",
+            path:"./assets/music/y2meta.com - Tokyo Drift - Teriyaki Boyz ( Dj Kantik Remix ) _ Nhạc Nền Hot Tik Tok 2020 _ AHQ Official (128 kbps).mp3",
+            image: "./assets/pictures/picture_34.jpg"
+        },   
         {
             name: "Váy Cưới",
             singer: "Trung Tự",
-            path: "./assets/music/y2meta.com - Trung Tự - Váy Cưới ( Lofi Ver ) - ( Lyric Video ) - Nhạc Hot TikTok (128 kbps).mp3",
-            image: "./assets/pictures/picture_7.jpg"
-        },
+            path:"./assets/music/y2meta.com - Trung Tự - Váy Cưới ( Lofi Ver ) - ( Lyric Video ) - Nhạc Hot TikTok (128 kbps).mp3",
+            image: "./assets/pictures/picture_35.jpg"
+        },   
+        {
+            name: "Trở Lại Phố Cũ",
+            singer: "Dj",
+            path:"./assets/music/y2meta.com - Trở Lại Phố Cũ - Remix Bản Nhạc Gây nghiện Nhất 2019 (128 kbps).mp3",
+            image: "./assets/pictures/picture_36.jpg"
+        },   
+        {
+            name: "Tìm Lại Bầu Trời",
+            singer: "Tuấn Hưng",
+            path:"./assets/music/y2meta.com - Tìm Lại Bầu Trời Remix ( TuyenNV x NVK MUSIC) - Tuấn Hưng __ Nhạc Trẻ Remix Hay Nhất Gây Nghiện (128 kbps).mp3",
+            image: "./assets/pictures/picture_37.jpg"
+        },   
+        {
+            name: "Tình Đơn Phương 3",
+            singer: "Hi Anh Trai",
+            path:"./assets/music/y2meta.com - Tình Đơn Phương 3 (ATOM Remix) - Hi Anh Trai Cover (128 kbps).mp3",
+            image: "./assets/pictures/picture_38.jpg"
+        },   
+        {
+            name: "Tập Yêu Đi",
+            singer: "Dj",
+            path:"./assets/music/y2meta.com - Tập Yêu Đi Remix - Lk DJ Remix __ Nhạc Trẻ Remix 2021 Hot Tik Tok. (128 kbps).mp3",
+            image: "./assets/pictures/picture_39.jpg"
+        },   
         {
             name: "Từ Cửu Môn Hồi Ức",
-            singer: "DJ DatPro",
+            singer: "Chill",
             path:"./assets/music/y2meta.com - Từ Cửu Môn Hồi Ức Remix  Chill Ke    NHẠC REMIX HOT TIK TOK 2021 (128 kbps).mp3",
-            image: "./assets/pictures/picture_8.jpeg"
-        },
+            image: "./assets/pictures/picture_4.jpg"
+        },   
         {
             name: "Thiên Đàng",
-            singer: "WOWY",
+            singer: "Wowy",
             path:"./assets/music/y2meta.com - WOWY - THIÊN ĐÀNG ft JOLIPOLI ( tại ELLE SHOW ) Full version (128 kbps).mp3",
-            image: "./assets/pictures/picture_9.jpg"
-        },
+            image: "./assets/pictures/picture_40.jpg"
+        },   
         {
-            name: "Xin Đừng Nhắc Máy",
-            singer: "B Ray x Han Sara",
+            name: "Xin Đừng Nhấc Máy",
+            singer: "B Ray",
             path:"./assets/music/y2meta.com - Xin Đừng Nhấc Máy Remix (Bản Chuẩn Trên TikTok) - B RAY x HAN SARA - (Marrk Martinez Remix) (128 kbps).mp3",
-            image: "./assets/pictures/picture_10.jpg"
+            image: "./assets/pictures/picture_41.jpg"
+        },   
+        {
+            name: "Đêm Trăng Tình Yêu",
+            singer: "Dj",
+            path:"./assets/music/y2meta.com - ĐEM TRĂNG TÌNH YÊU VGEE REMIX _ NHẠC HOT TIK TOK_ TB MEDIA (128 kbps).mp3",
+            image: "./assets/pictures/picture_42.jpg"
+        },   
+        {
+            name: "Đám Cưới Nha",
+            singer: "Hồng Thanh",
+            path:"./assets/music/y2meta.com - ĐÁM CƯỚI NHA_ - HỒNG THANH X MIE - Lần đầu biểu diễn cực sung!!! (128 kbps).mp3",
+            image: "./assets/pictures/picture_43.jpg"
+        },   
+        {
+            name: "Đơn Giản Em Yêu Anh",
+            singer: "Ciray",
+            path:"./assets/music/y2meta.com - Đơn Giản Em Yêu Anh (Ciray Remix) - Dunghoangpham x Phạm Bảo Nam _ Anh chẳng thể nào ngừng yêu em (128 kbps).mp3",
+            image: "./assets/pictures/picture_44.jpg"
+        },   
+        {
+            name: "Đỉnh Của Đỉnh",
+            singer: "Team Rap",
+            path:"./assets/music/y2meta.com - Đỉnh của đỉnh - Rhymastic, JustaTee, Wowy, Karik, Binz, Suboi lần đầu kết hợp _ Theme Song RAP VIỆT (128 kbps).mp3",
+            image: "./assets/pictures/picture_45.jpg"
+        },   
+        {
+            name: "Đời Trai Lênh Đênh",
+            singer: "TLong",
+            path:"./assets/music/y2meta.com - ĐỜI TRAI LÊNH ĐÊNH - TLong ( Fmajor Remix ) _ Nhạc Trẻ EDM Tik Tok Gây Nghiện Hay Nhất 2021 (128 kbps).mp3",
+            image: "./assets/pictures/picture_46.jpg"
+        },   
+        {
+            name: "Diamonds",
+            singer: "Denver",
+            path:"./assets/music/y2meta.com - ✈ Diamonds - Denver Remix __ NHẠC HOT TIK TOK (128 kbps).mp3",
+            image: "./assets/pictures/picture_47.jpg"
+        },   
+        {
+            name: "Chuyện Nàng Trinh Nữ Tên Thi",
+            singer: "Sói ",
+            path:"./assets/music/y2meta.com - ✈Chuyện Nàng Trinh Nữ Tên Thi Cực Chill - Việt Thi Cover _ Sói Dolce Mix _ Trưởng Còi Music (128 kbps).mp3",
+            image: "./assets/pictures/picture_48.jpg"
+        },   
+        {
+            name: "Phải Chia Tay Thôi",
+            singer: "Quyền HP",
+            path:"./assets/music/y2meta.com - ✈️ Phải Chia Tay Thôi Remix (Quyền HP) __ Nhạc Hót TikTok (128 kbps).mp3",
+            image: "./assets/pictures/picture_49.jpg"
+        },   
+        {
+            name: "Tương Tư Thành Hoạ",
+            singer: "抖音DJ版",
+            path:"./assets/music/y2meta.com - 郑亦辰 - 相思成灾 (抖音DJ版) Tương Tư Thành Hoạ (Remix Tiktok) __ China Mix New Song 2020 __ Hot Tiktok Douyin (128 kbps).mp3",
+            image: "./assets/pictures/picture_5.jpg"
+        },   
+        {
+            name: "Chỉ Cần Ai Đó Cạnh Bên Dừng lại",
+            singer: "Minh Prod",
+            path:"./assets/music/y2meta.com - 🎧Chỉ Cần Ai Đó Cạnh Bên Dừng lại...3107-2 Minh Prod Remix (128 kbps).mp3",
+            image: "./assets/pictures/picture_50.jpg"
+        },   
+        {
+            name: "Thế Giới Ảo Tình Yêu Thật",
+            singer: "Mixcoud",
+            path:"./assets/music/y2meta.com - 🤟 NONSTOP 2021_ THẾ GIỚI ẢO TÌNH YÊU THẬT - REMIX _ MIXCOUD VN _ Nhạc Trẻ Hot Tiktok 2021. (128 kbps).mp3",
+            image: "./assets/pictures/picture_1.jpg"
+        },   
+        {
+            name: "Day By Day",
+            singer: "Ara",
+            path:"./assets/music/ara-day-by-day-tiara-dei-bai-dei-beautiful-concert-20120821.mp3",
+            image: "./assets/pictures/picture_10.png"
+        },   
+        {
+            name: "Britney Spears",
+            singer: "Ara",
+            path:"./assets/music/britney-spears.mp3",
+            image: "./assets/pictures/picture_11.jpg"
+        },   
+        {
+            name: "Alive",
+            singer: "Teddy",
+            path:"./assets/music/y2mate.com - Alive  TEDDY X VeiruX  Hot Trend Tiktok  MAGUS (1).mp3",
+            image: "./assets/pictures/picture_12.jpg"
+        },   
+        {
+            name: "Criminal",
+            singer: "King",
+            path:"./assets/music/y2mate.com - CRIMINAL KING 44 REMIX HOT TIK TOK.mp3",
+            image: "./assets/pictures/picture_13.jpg"
         }
-
+        
     ],
     setConfig: function (key, value) {
         this.config[key] = value;
